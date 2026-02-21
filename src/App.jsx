@@ -1,7 +1,9 @@
 import Header from './header/Header'
 import Paragraph from './paragraph/Paragraph'
 import Button from './button/Button' 
+import Search from './search/Search'
 import './App.css'
+import SearchFilmLine from './SearchFilmLine/SearchFilmLine'
 
 function App() {
 
@@ -9,7 +11,13 @@ function App() {
     <>
     <Header />
     <Paragraph />
-    <Button />
+
+  <SearchFilmLine>
+      <Search />
+      <Button />
+
+  </SearchFilmLine>
+
     </>
   )
 }
