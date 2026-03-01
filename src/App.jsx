@@ -4,6 +4,7 @@ import Button from './button/Button'
 import Search from './search/Search'
 import './App.css'
 import SearchFilmLine from './SearchFilmLine/SearchFilmLine'
+import Cards from './Cards/Cards'
 
 function App() {
 
@@ -12,11 +13,12 @@ function App() {
     <Header />
     <Paragraph />
 
-  <SearchFilmLine>
-      <Search />
-      <Button />
-
-  </SearchFilmLine>
+    <SearchFilmLine>
+        <Search />
+        <Button />
+    </SearchFilmLine>
+    
+    <Cards/>
 
     </>
   )
